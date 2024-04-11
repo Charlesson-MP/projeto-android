@@ -1,0 +1,160 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'alien';
+    src: url('fontes/DCC\ -\ The\ alien\ are\ coming.ttf');
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 220, 167);
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #043d1d, #289f5c);
+    color: white;
+    padding-bottom: 12px;
+    box-shadow: 0px 6px 8px #0000006c;
+}
+
+header > h1 {
+    margin: 0px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font: normal 3em 'alien';
+}
+
+header > p {
+    text-align: center;
+    margin-bottom: 3cqi;
+}
+
+header > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #95d5ac;
+    margin-left: 25px;
+}
+
+main {
+    background-color: white;
+    margin: 0px auto 0px auto;
+    padding: 30px;
+    width: 70%;
+    box-shadow: 0px 3px 5px 3px #0000006b;
+    margin-bottom: 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main > h1 {
+    font-family: 'idroid';
+    color: #182f26;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+span {
+    color: #043d1d;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.425);
+}
+
+main > h2 {
+    font-family: 'idroid';
+    color: #166637;
+    background-image: linear-gradient(to right, #87E1AC, white);
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #043d1d;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+p > a:hover {
+    background-color: #b7ddc7;
+}
+
+p > a::after {
+    content: '🔗';
+}
+
+img {
+    width: 100%;
+}
+
+.pequena {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.box-video {
+    position: relative;
+    background-color: #043d1d;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 0px;
+    height: 300px;
+}
+
+.box-video iframe {
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+}
+
+.curiosidade {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.459);
+}
+
+.curiosidade h3 {
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    color: white;
+}
+
+.curiosidade p {
+    padding: 0px 20px 0px 20px;
+}
+
+.curiosidade ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 30px;
+}
+
+footer {
+    background-color: #1A5A37;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+}
